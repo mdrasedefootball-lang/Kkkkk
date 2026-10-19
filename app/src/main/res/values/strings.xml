@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">DF Net Control</string>
+    <string name="app_subtitle">Per-App Wi-Fi &amp; Mobile Data Firewall</string>
+
+    <!-- Master Controls -->
+    <string name="firewall_status_active">Firewall is Active</string>
+    <string name="firewall_status_stopped">Firewall is Stopped</string>
+    <string name="firewall_status_starting">Starting Firewall…</string>
+    <string name="firewall_btn_start">Start Firewall</string>
+    <string name="firewall_btn_stop">Stop Firewall</string>
+
+    <!-- Network Info -->
+    <string name="network_wifi">Wi-Fi</string>
+    <string name="network_mobile">Mobile Data</string>
+    <string name="network_none">No Active Network</string>
+    <string name="active_network_label">Current Network</string>
+    <string name="blocked_on_current_network">%1$d apps blocked on %2$s</string>
+    <string name="packets_dropped_count">Packets Dropped: %1$d</string>
+    <string name="bytes_dropped_count">Data Saved: %1$s</string>
+
+    <!-- Rule Controls -->
+    <string name="status_allowed">Allowed</string>
+    <string name="status_blocked">Blocked</string>
+    <string name="wifi_short">Wi-Fi</string>
+    <string name="mobile_short">Mobile</string>
+
+    <!-- Filters & Search -->
+    <string name="search_hint">Search by app or package name…</string>
+    <string name="filter_all">All (%1$d)</string>
+    <string name="filter_blocked">Blocked (%1$d)</string>
+    <string name="filter_user">User (%1$d)</string>
+    <string name="filter_system">System (%1$d)</string>
+
+    <!-- Quick Actions -->
+    <string name="quick_actions">Quick Actions</string>
+    <string name="action_block_all_wifi">Block All on Wi-Fi</string>
+    <string name="action_allow_all_wifi">Allow All on Wi-Fi</string>
+    <string name="action_block_all_mobile">Block All on Mobile</string>
+    <string name="action_allow_all_mobile">Allow All on Mobile</string>
+    <string name="action_reset_all">Reset All to Allowed</string>
+
+    <!-- Tabs & Navigation -->
+    <string name="nav_firewall">Apps</string>
+    <string name="nav_stats">Status &amp; Logs</string>
+    <string name="nav_how_it_works">How It Works</string>
+
+    <!-- Dialogs & Explanations -->
+    <string name="vpn_permission_title">VPN Permission Required</string>
+    <string name="vpn_permission_msg">Android requires explicit permission to set up a local VPN interface. DF Net Control runs 100% locally on your device to block network packets for apps you choose. No data is sent to external servers.</string>
+    <string name="vpn_permission_grant">Grant &amp; Start</string>
+    <string name="vpn_permission_cancel">Cancel</string>
+
+    <!-- Notification -->
+    <string name="notification_channel_name">Firewall Service</string>
+    <string name="notification_channel_desc">Shows ongoing status of the local network firewall</string>
+    <string name="notification_title">DF Net Control Active</string>
+    <string name="notification_text_running">Protecting device traffic • %1$d apps blocked on %2$s</string>
+    <string name="notification_action_stop">Stop</string>
+
+    <!-- Empty States -->
+    <string name="no_apps_found">No apps match your search or filter</string>
+    <string name="loading_apps">Loading installed applications…</string>
+
+    <!-- Language -->
+    <string name="language_toggle">বাংলা / English</string>
+</resources>

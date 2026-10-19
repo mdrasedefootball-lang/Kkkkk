@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">ডিএফ নেট কন্ট্রোল</string>
+    <string name="app_subtitle">প্রতিটি অ্যাপের ওয়াই-ফাই ও মোবাইল ডেটা ফায়ারওয়াল</string>
+
+    <!-- Master Controls -->
+    <string name="firewall_status_active">ফায়ারওয়াল চালু আছে</string>
+    <string name="firewall_status_stopped">ফায়ারওয়াল বন্ধ রয়েছে</string>
+    <string name="firewall_status_starting">ফায়ারওয়াল শুরু হচ্ছে…</string>
+    <string name="firewall_btn_start">ফায়ারওয়াল চালু করুন</string>
+    <string name="firewall_btn_stop">ফায়ারওয়াল বন্ধ করুন</string>
+
+    <!-- Network Info -->
+    <string name="network_wifi">ওয়াই-ফাই</string>
+    <string name="network_mobile">মোবাইল ডেটা</string>
+    <string name="network_none">কোনো নেটওয়ার্ক সংযুক্ত নেই</string>
+    <string name="active_network_label">বর্তমান নেটওয়ার্ক</string>
+    <string name="blocked_on_current_network">%2$s-তে %1$dটি অ্যাপ অবরুদ্ধ</string>
+    <string name="packets_dropped_count">বাতিলকৃত প্যাকেট: %1$d</string>
+    <string name="bytes_dropped_count">সংরক্ষিত ডেটা: %1$s</string>
+
+    <!-- Rule Controls -->
+    <string name="status_allowed">অনুমোদিত</string>
+    <string name="status_blocked">অবরুদ্ধ</string>
+    <string name="wifi_short">ওয়াই-ফাই</string>
+    <string name="mobile_short">মোবাইল</string>
+
+    <!-- Filters & Search -->
+    <string name="search_hint">অ্যাপ বা প্যাকেজের নাম খুঁজুন…</string>
+    <string name="filter_all">সকল (%1$d)</string>
+    <string name="filter_blocked">অবরুদ্ধ (%1$d)</string>
+    <string name="filter_user">ব্যবহারকারী (%1$d)</string>
+    <string name="filter_system">সিস্টেম (%1$d)</string>
+
+    <!-- Quick Actions -->
+    <string name="quick_actions">দ্রুত ব্যবস্থা</string>
+    <string name="action_block_all_wifi">ওয়াই-ফাইতে সব বন্ধ করুন</string>
+    <string name="action_allow_all_wifi">ওয়াই-ফাইতে সব অনুমতি দিন</string>
+    <string name="action_block_all_mobile">মোবাইল ডেটায় সব বন্ধ করুন</string>
+    <string name="action_allow_all_mobile">মোবাইল ডেটায় সব অনুমতি দিন</string>
+    <string name="action_reset_all">সব ডিফল্ট অবস্থায় ফেরান</string>
+
+    <!-- Tabs & Navigation -->
+    <string name="nav_firewall">অ্যাপসমূহ</string>
+    <string name="nav_stats">স্ট্যাটাস ও লগ</string>
+    <string name="nav_how_it_works">কাজের নিয়ম</string>
+
+    <!-- Dialogs & Explanations -->
+    <string name="vpn_permission_title">ভিপিএন অনুমতি আবশ্যক</string>
+    <string name="vpn_permission_msg">অ্যান্ড্রয়েড সিস্টেমে লোকাল প্যাকেট ফিল্টারিং চালু করতে স্পষ্ট ভিপিএন অনুমতি প্রয়োজন। ডিএফ নেট কন্ট্রোল ১০০% আপনার ডিভাইসেই চালিত হয়। কোনো ডেটা বাইরের কোনো সার্ভারে যায় না।</string>
+    <string name="vpn_permission_grant">অনুমতি দিন ও চালু করুন</string>
+    <string name="vpn_permission_cancel">বাতিল</string>
+
+    <!-- Notification -->
+    <string name="notification_channel_name">ফায়ারওয়াল সেবা</string>
+    <string name="notification_channel_desc">লোকাল নেটওয়ার্ক ফায়ারওয়ালের চলমান অবস্থা প্রদর্শন করে</string>
+    <string name="notification_title">ডিএফ নেট কন্ট্রোল সক্রিয়</string>
+    <string name="notification_text_running">ডিভাইস ট্রাফিক সুরক্ষিত • %2$s-তে %1$dটি অ্যাপ অবরুদ্ধ</string>
+    <string name="notification_action_stop">বন্ধ করুন</string>
+
+    <!-- Empty States -->
+    <string name="no_apps_found">কোনো অ্যাপ মেলেনি</string>
+    <string name="loading_apps">ইনস্টল করা অ্যাপ লোড হচ্ছে…</string>
+
+    <!-- Language -->
+    <string name="language_toggle">English / বাংলা</string>
+</resources>

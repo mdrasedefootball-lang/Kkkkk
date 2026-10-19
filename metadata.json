@@ -1,0 +1,6 @@
+{
+  "name": "DF Net Control",
+  "description": "Native Android firewall to independently allow or block internet access on Wi-Fi and Mobile Data for each installed app.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
